@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Coda+Caption:wght@800&family=Open+Sans:wght@300;400&display=swap');
+:root {
+    --bodyFont: 'Open Sans', sans-serif;
+    --fontSize: 16px;
+    --text: #4a4a4a;
+    --transition: .3s ease;
+    --primary : #35424a;
+    --white: #fff;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: var(--bodyFont);
+    font-size: var(--fontSize);
+    color: var(--text);
+    line-height: 1.6;
+}
+a {
+    text-decoration: none;
+}
+.container {
+    width: 70%;
+    margin: auto;
+    padding: 30px 0;
+}
