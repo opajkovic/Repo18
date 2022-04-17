@@ -21,6 +21,5 @@ for(i=0; i<arrValue.length; i++) {
 };
 for(let e of shoppingList.entries()) {
     console.log(`${e[0]}: ${e[1]}`);
-    };
-
+};
 module.exports = { shoppingList, arrKey, arrValue };
