@@ -20,6 +20,6 @@ for(i=0; i<arrValue.length; i++) {
     console.log(`amount: ${arrValue[i]}\n`);
 };
 for(let e of shoppingList.entries()) {
-    console.log(`${e[0]}: ${e[1]}`);
+    console.log(`[ ${e[0]}: ${e[1]} ]`);
 };
 module.exports = { shoppingList, arrKey, arrValue };
